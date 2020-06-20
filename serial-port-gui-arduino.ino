@@ -3,7 +3,7 @@ void setup() {
   Serial.begin(9600);
 }
 
-int val = 12;
+int val = 1;
 void loop() {
  if (Serial.available() > 0) {
     char a = Serial.read();
@@ -21,5 +21,4 @@ void loop() {
       Serial.print("Error!");
     }
   }
-
 }
